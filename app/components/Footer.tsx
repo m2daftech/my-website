@@ -1,7 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+  // hide footer on the homepage
+  if (pathname === "/") return null;
   return (
     <footer className="site-footer">
       <div className="site-footer__inner mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
@@ -23,7 +29,8 @@ export default function Footer() {
           <Link href="/association" className="nav-link">L'association</Link>
           <Link href="/partenaires" className="nav-link">Nos partenaires</Link>
           <Link href="/actualites" className="nav-link">Nos événements</Link>
-          <Link href="/etudiants" className="nav-link">Étudiants</Link>
+          <Link href="/etudiants/promotions" className="nav-link">Promotions</Link>
+          <Link href="/etudiants/que-sont-ils-devenues" className="nav-link">Que sont-ils devenues</Link>
           <Link href="/contact" className="nav-link">Contact</Link>
         </nav>
 

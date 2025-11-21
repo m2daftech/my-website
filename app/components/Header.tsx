@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,6 +8,8 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   const [isHidden, setIsHidden] = useState(false);
+  const [studentsOpen, setStudentsOpen] = useState(false);
+  const studentsRef = useRef<HTMLDivElement | null>(null);
 
   // Hide header after a certain scroll distance (px)
   const HIDE_AFTER_PX = 200;
@@ -65,9 +67,27 @@ export default function Header() {
           <Link href="/association" className="nav-link">
             L'association
           </Link>
-          <Link href="/etudiants" className="nav-link">
-            Étudiants
-          </Link>
+          <div
+            ref={studentsRef}
+            className={`nav-item ${studentsOpen ? "open" : ""}`}
+            onMouseEnter={() => setStudentsOpen(true)}
+            onMouseLeave={() => setStudentsOpen(false)}
+            onFocus={() => setStudentsOpen(true)}
+            onBlur={(e: React.FocusEvent) => {
+              const related = e.relatedTarget as Node | null;
+              if (!studentsRef.current || !related || !studentsRef.current.contains(related)) {
+                setStudentsOpen(false);
+              }
+            }}
+          >
+            <span className="nav-link nav-parent" aria-haspopup="true" aria-expanded={studentsOpen} tabIndex={0}>
+              Étudiants
+            </span>
+            <div className="subnav" role="menu" aria-label="Sous-menu Étudiants">
+              <Link href="/etudiants/promotions" className="nav-link subnav-link" role="menuitem" onClick={() => setStudentsOpen(false)}>Promotions</Link>
+              <Link href="/etudiants/que-sont-ils-devenues" className="nav-link subnav-link" role="menuitem" onClick={() => setStudentsOpen(false)}>Que sont‑ils devenues</Link>
+            </div>
+          </div>
           <Link href="/formation" className="nav-link">
             Formation
           </Link>
