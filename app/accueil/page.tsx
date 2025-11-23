@@ -7,6 +7,8 @@ import AnimatedCounters from "../components/AnimatedCounters";
 import StatsCharts from "../components/StatsCharts";
 import PartnersMarquee from "../components/PartnersMarquee";
 
+
+
 export default function Accueil() {
   return (
     <main className="min-h-screen bg-white py-24">
