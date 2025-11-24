@@ -71,8 +71,15 @@ const promotions = [
 ];
 
 export default function PromotionsPage() {
-  const [selectedId, setSelectedId] = useState(promotions[promotions.length - 1].id);
-  const selected = promotions.find((p) => p.id === selectedId) || promotions[0];
+  // sort promotions by starting year (newest first)
+  const sortedPromotions = [...promotions].sort((a, b) => {
+    const ya = (a.title.match(/\d{4}/) || [0])[0];
+    const yb = (b.title.match(/\d{4}/) || [0])[0];
+    return parseInt(yb) - parseInt(ya);
+  });
+
+  const [selectedId, setSelectedId] = useState(sortedPromotions[0].id);
+  const selected = sortedPromotions.find((p) => p.id === selectedId) || sortedPromotions[0];
 
   return (
     <main className="min-h-screen bg-white py-24">
@@ -132,7 +139,7 @@ export default function PromotionsPage() {
 
               <nav className="mt-4">
                 <ul className="space-y-3">
-                  {promotions.slice().reverse().map((p) => (
+                  {sortedPromotions.map((p) => (
                     <li key={p.id}>
                       <button
                         onClick={() => setSelectedId(p.id)}
