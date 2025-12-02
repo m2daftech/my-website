@@ -82,7 +82,7 @@ export default function PromotionsPage() {
       <div className="mx-auto max-w-screen-xl px-8">
         <div className="text-left mb-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-[#5a0f19] mb-4">Promotions</h1>
-          <p className="mt-3 text-lg text-zinc-700 font-light tracking-wide">Accédez aux fiches des promotions — cliquez à droite pour naviguer.</p>
+          <p className="mt-3 text-lg text-zinc-700 font-light tracking-wide">Accédez aux fiches des promotions — cliquez pour naviguer.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -101,7 +101,7 @@ export default function PromotionsPage() {
               <div className="p-8">
                 <h2 className="text-2xl font-semibold text-black">{selected.title}</h2>
                 {/* <p className="mt-3 text-zinc-700 leading-relaxed">{selected.short}</p> */}
-                
+
                 {selected.members && (
                   <div className="mt-6">
                     <h3 className="text-lg font-semibold text-black">Membres de la promotion</h3>

@@ -136,21 +136,21 @@ et <span class="underline text-[#5a0f19] font-semibold">M. Yanis Robin</span> po
         </div>
 
         {/* TIMELINE */}
-        <div className="relative border-l border-zinc-200">
-          <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-[#5a0f19] opacity-60 animate-pulse"></div>
+        <div className="relative sm:border-l border-zinc-200">
+          <div className="hidden sm:block absolute left-0 top-0 bottom-0 w-[3px] bg-[#5a0f19] opacity-60 animate-pulse"></div>
 
           {events.map((event) => (
-            <div key={event.id} className="relative pl-12 mb-20">
+            <div key={event.id} className="relative pl-4 sm:pl-12 mb-12 sm:mb-20">
 
               {/* Pastille */}
-              <div className="absolute -left-[10px] top-2 w-5 h-5 bg-white border-[3px] border-[#5a0f19] rounded-full shadow-sm"></div>
+              <div className="absolute left-4 sm:-left-[10px] top-2 w-5 h-5 bg-white border-[3px] border-[#5a0f19] rounded-full shadow-sm"></div>
 
               {/* Card */}
-              <div className="bg-white border border-zinc-100 shadow-md hover:shadow-xl transition-all duration-300 rounded-2xl p-12 flex gap-10 items-start">
+              <div className="bg-white border border-zinc-100 shadow-md hover:shadow-xl transition-all duration-300 rounded-2xl p-6 sm:p-12 flex flex-col sm:flex-row gap-6 sm:gap-10 items-start">
 
                 {/* Image */}
                 <div
-                  className="w-72 h-48 flex-shrink-0 rounded-xl overflow-hidden border border-zinc-200 shadow-sm hover:scale-105 transform transition-all duration-300 cursor-pointer"
+                  className="w-full sm:w-72 h-48 sm:h-48 flex-shrink-0 rounded-xl overflow-hidden border border-zinc-200 shadow-sm hover:scale-105 transform transition-all duration-300 cursor-pointer"
                   onClick={() => setOpenImage(event.image)}
                 >
                   <img src={event.image} alt={event.title} className="w-full h-full object-cover" />
@@ -158,14 +158,14 @@ et <span class="underline text-[#5a0f19] font-semibold">M. Yanis Robin</span> po
 
                 {/* Texte */}
                 <div className="flex-1">
-                  <div className="inline-block bg-[#5a0f19] text-white text-xs font-semibold px-4 py-1 rounded-full shadow-sm">
+                  <div className="inline-block bg-[#5a0f19] text-white text-xs font-semibold px-4 py-1 rounded-full shadow-sm mb-3 sm:mb-0 text-center sm:text-left">
                     {event.date}
                   </div>
 
-                  <h2 className="mt-5 text-3xl font-semibold text-black">{event.title}</h2>
+                  <h2 className="mt-3 sm:mt-5 text-2xl sm:text-3xl font-semibold text-black text-center sm:text-left">{event.title}</h2>
 
                   <div
-                    className="mt-4 text-zinc-700 leading-relaxed text-lg"
+                    className="mt-4 text-zinc-700 leading-relaxed text-base sm:text-lg"
                     dangerouslySetInnerHTML={{ __html: formatDescription(event.description) }}
                   />
                 </div>
