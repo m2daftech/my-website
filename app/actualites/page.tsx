@@ -1,6 +1,15 @@
 "use client";
 import React, { useState } from "react";
 
+function formatDescription(desc: string) {
+  // split on empty lines and wrap paragraphs to avoid relying on whitespace-pre-line
+  return desc
+    .trim()
+    .split(/\n\s*\n/)
+    .map((p) => `<p>${p.trim()}</p>`)
+    .join("");
+}
+
 export default function Actualites() {
   const [openImage, setOpenImage] = useState<string | null>(null);
 
@@ -155,9 +164,9 @@ et <span class="underline text-[#5a0f19] font-semibold">M. Yanis Robin</span> po
 
                   <h2 className="mt-5 text-3xl font-semibold text-black">{event.title}</h2>
 
-                  <p
-                    className="mt-4 text-zinc-700 leading-relaxed text-lg whitespace-pre-line"
-                    dangerouslySetInnerHTML={{ __html: event.description }}
+                  <div
+                    className="mt-4 text-zinc-700 leading-relaxed text-lg"
+                    dangerouslySetInnerHTML={{ __html: formatDescription(event.description) }}
                   />
                 </div>
               </div>

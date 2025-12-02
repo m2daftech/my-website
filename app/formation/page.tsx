@@ -7,7 +7,7 @@ export default function FormationPage() {
     <main className="min-h-screen bg-white py-24">
       <div className="mx-auto max-w-5xl px-6">
         <header className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-[#5a0f19] mb-4">La Formation en Master 2 Droit des affaires</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-[#5a0f19] mb-4">La Formation en Master 2 <br /> Droit des affaires</h1>
         </header>
 
         <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-8">
