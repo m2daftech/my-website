@@ -10,6 +10,7 @@ const promotions = [
     id: "p24",
     title: "Promotion 2024-2025",
     // short: "Promotion 2024-2025 — une belle cohorte engagée.",
+   
     img: "/photos_actualites/promotions/promo_24_25.jpeg",
   },
   {
@@ -99,8 +100,8 @@ export default function PromotionsPage() {
 
               <div className="p-8">
                 <h2 className="text-2xl font-semibold text-black">{selected.title}</h2>
-                <p className="mt-3 text-zinc-700 leading-relaxed">{selected.short}</p>
-
+                {/* <p className="mt-3 text-zinc-700 leading-relaxed">{selected.short}</p> */}
+                
                 {selected.members && (
                   <div className="mt-6">
                     <h3 className="text-lg font-semibold text-black">Membres de la promotion</h3>
