@@ -13,27 +13,31 @@ export default function Association() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <div className="bg-white border border-zinc-100 rounded-2xl overflow-hidden shadow-md">
-              <div className="w-full h-64 md:h-100 relative bg-gray-100">
-                <Image src="/photos_actualites/promotions_membre/Bureau 2025-2026.JPG" alt="Photo du bureau" fill className="object-cover" sizes="100vw" />
+              <div className="w-full bg-gray-100">
+                <Image
+                  src="/photos_actualites/promotions_membre/Bureau 2025-2026.JPG"
+                  alt="Photo du bureau"
+                  width={1600}
+                  height={1000}
+                  className="object-contain w-full h-auto rounded-t-2xl"
+                />
               </div>
 
               <div className="p-8">
-                <h2 className="text-2xl font-semibold text-black">Mot des co-présidentes</h2>
+                <h2 className="text-2xl font-semibold text-black">Mot des Co-Présidentes</h2>
                 <div className="mt-4 text-zinc-700 leading-relaxed text-lg space-y-4">
                   <p>
-                    « En tant que co-présidentes, nous avons à cœur de renforcer les liens entre les étudiants, les
-                    anciens et les partenaires professionnels. Notre objectif cette année est d'animer le réseau,
-                    d'organiser des rencontres professionnelles qualitatives et d'accompagner chacun dans son
-                    projet professionnel. »
+                    « En tant que Présidentes, nous avons à cœur de renforcer les liens entre les étudiants, les alumni et les professionnels qui accompagnent la formation.
+Notre priorité cette année est de structurer un réseau solide et accessible, de proposer des rencontres pertinentes et d’accompagner chaque étudiant dans la construction de son projet professionnel.
+ »
                   </p>
 
                   <p>
-                    L'association vise à soutenir les étudiants du Master 2 — faciliter les stages, créer des
-                    événements d'échanges, promouvoir les initiatives étudiantes et entretenir la relation avec les
-                    alumni.
+                    L’association s’engage à soutenir la promotion au quotidien : faciliter la recherche de stages, encourager les initiatives, créer un véritable esprit de promotion et préserver un lien durable avec les anciens notamment grâce au maintien des événements historiques du Master.
+
                   </p>
 
-                  <p className="mt-4 font-semibold">— Les co‑présidentes</p>
+                  <p className="mt-4 font-semibold">— Les Co‑Présidentes</p>
                 </div>
               </div>
             </div>

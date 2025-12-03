@@ -18,14 +18,14 @@ const partners = [
   },
   {
     name: "DLA Piper",
-    src: "/logo_partners/Screenshot-2024-03-06-at-20.17.24.png",
+    src: "/logo_partners/Screenshot-2024-03-06-at-20.27.20.png",
     href: "https://www.dlapiper.com/en-us",
     description:
       "DLA Piper est l’un des plus grands cabinets d’avocats au monde, avec plus de 90 bureaux répartis dans plus de 40 pays. Le cabinet est réputé pour son expertise dans une grande variété de domaines (fusions‑acquisitions, contentieux et arbitrage, transactions immobilières, aviation, IP/IT, assurance, etc.). DLA Piper accompagne des clients dans de nombreux secteurs, notamment les technologies, les services financiers, les sciences de la vie et les énergies.",
   },
   {
     name: "CMS Francis Lefebvre Avocats",
-    src: "/logo_partners/Screenshot-2024-03-06-at-20.27.20.png",
+    src: "/logo_partners/Screenshot-2024-03-06-at-20.17.24.png",
     href: "https://cms.law/fr/fra/",
     description:
       "CMS Francis Lefebvre Avocats est l’un des plus grands cabinets d’avocats de droit des affaires en France. Établi depuis 1925 à Paris, le cabinet compte près de 400 avocats spécialisés en droit fiscal, droit des affaires et droit du travail. Sa pluridisciplinarité, la fiabilité de ses recommandations, et son approche globale permettent d’assister groupes français et internationaux, banques, établissements financiers, fonds d’investissement, entreprises de toutes tailles et particuliers dans leurs problématiques juridiques et patrimoniales.",

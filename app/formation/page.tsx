@@ -11,7 +11,7 @@ export default function FormationPage() {
         </header>
 
         <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Mot du professeur Daniel Cohen</h2>
+        <h2 className="text-2xl font-semibold mb-4">Mot du Professeur Daniel Cohen</h2>
         
         <p className="text-zinc-700 leading-relaxed">
           <strong>
@@ -40,15 +40,15 @@ export default function FormationPage() {
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Former des juristes de haut niveau pour les préparer à leur vie professionnelle</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Faciliter la recherche de stages.</p>
             </div>
 
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Former les candidats désireux de rejoindre l’enseignement supérieur</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Encourager les initiatives.</p>
             </div>
 
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Faire de l’étudiant un ingénieur du droit</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Créer un véritable esprit de promotion et préserver un lien durable avec les anciens.</p>
             </div>
           </div>
         </section>

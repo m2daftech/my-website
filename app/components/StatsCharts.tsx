@@ -10,7 +10,7 @@ const leftData = [
   { value: 6, name: "Thèse" },
   { value: 7, name: "LLM" },
   { value: 18, name: "CRFPA/EFB" },
-  { value: 7, name: "CCD/CDI" },
+  { value: 7, name: "CDD/CDI" },
   { value: 4, name: "Autres" },
 ];
 
