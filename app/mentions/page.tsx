@@ -24,7 +24,7 @@ export default function MentionsPage() {
             <div className={styles.contact}>
               Association « Master 2 Droit des Affaires »<br />
               Université Paris II Panthéon‑Assas<br />
-              12, place Panthéon — 75005 Paris
+              87, Rue Notre Dame des Champs — 75006 Paris
             </div>
 
             <div className={styles.sectionTitle} style={{ marginTop: 14 }}>Contact</div>

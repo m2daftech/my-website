@@ -42,14 +42,14 @@ export default function Accueil() {
                         Ce Master 2 (autrefois Diplôme d’études approfondies) peut en effet s’enorgueillir d’un riche
                         passé : talentueux professeurs, nombreuses promotions, succès continu de ses diplômés – attesté
                         dans tous les pans de la vie juridique (cabinets d’avocats, entreprises, magistrature,
-                        université) et au-delà -, et formation juridique solide mêlant théorie et pratique. L’alliance
+                        université) et au-delà –, et formation juridique solide mêlant théorie et pratique. L’alliance
                         d’une équipe soudée et motivée d’enseignants et d’étudiants sélectionnés pour leurs qualités
                         permet d’assurer, année après année, la continuité d’un diplôme qui a fait ses preuves.
                       </p>
 
                       <p>
                         Mieux vaut une tête bien faite qu’une tête bien pleine. Nul doute que ce Master 2 continuera à
-                        bien former en droit des affaires, à permettre de bien penser, de relier les connaissances et de
+                        bien former en Droit des affaires, à permettre de bien penser, de relier les connaissances et de
                         développer un sens critique, car tel est son but, plutôt que d’emmagasiner sans réflexion ni recul
                         des solutions hétéroclites. Les lois, la jurisprudence, la pratique, la doctrine changeront, de
                         nouvelles questions apparaîtront mais l’esprit juridique acquis saura évoluer dans l’environnement
@@ -88,7 +88,7 @@ export default function Accueil() {
                       </p>
 
                       <p>
-                        Créé il y a plus de 30 ans, le Master de droit des Affaires est aujourd’hui l’un des diplômes
+                        Créé il y a plus de 50 ans, le Master de Droit des Affaires est aujourd’hui l’un des diplômes
                         les mieux reconnus par les milieux professionnels et le monde de la recherche juridique. Ouvert
                         aux enjeux économiques et juridiques de demain, le Master forme, chaque année, 25 à 30 jeunes
                         professionnels qui deviennent avocats dans les grands cabinets de la place de Paris ou juristes

@@ -47,10 +47,10 @@ export default function PartenariatESSEC() {
             </p>
             <ol className="list-decimal list-inside text-zinc-700 space-y-2">
               <li>
-                <strong>1)</strong> de l’accès à l’épreuve d’admission au Mastère Spécialisé (MS) « Droit des affaires Internationales et Management » de l’ESSEC;
+                de l’accès à l’épreuve d’admission au Mastère Spécialisé (MS) « Droit des affaires Internationales et Management » de l’ESSEC;
               </li>
               <li>
-                <strong>2)</strong> de l’admissibilité automatique et de l’accès aux épreuves d’admission en deuxième année au programme Grande École de l’ESSEC. Le parcours imposé en cycle Master prendra en compte les acquis académiques et professionnels des candidats admis.
+                de l’admissibilité automatique et de l’accès aux épreuves d’admission en deuxième année au programme Grande École de l’ESSEC. Le parcours imposé en cycle Master prendra en compte les acquis académiques et professionnels des candidats admis.
               </li>
             </ol>
           </div>

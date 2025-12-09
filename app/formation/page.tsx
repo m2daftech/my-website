@@ -16,7 +16,7 @@ export default function FormationPage() {
         <p className="text-zinc-700 leading-relaxed">
           <strong>
             Le Master 2 Droit des affaires (Recherche) forme des juristes capables d’aborder des problématiques complexes du droit des affaires, tant sur le plan national qu’international. 
-            Les débouchés sont variés : carrières en cabinets d’avocats spécialisés, services juridiques d’entreprises, institutions financières, postes dans la recherche et l’enseignement. 
+            Les débouchés sont variées : carrières en cabinets d’avocats spécialisés, services juridiques d’entreprises, institutions financières, postes dans la recherche et l’enseignement. 
             La sélection vise à réunir des étudiants de haut niveau et une forte motivation pour la recherche.
           </strong>
         </p>
@@ -25,7 +25,7 @@ export default function FormationPage() {
           <strong>
             Mémoire de fin d’études : oui — chaque étudiant rédige un mémoire de recherche en fin de Master 2. 
             Le mémoire a pour but de développer une problématique précise, de mobiliser une méthode de recherche juridique 
-            (doctrine, jurisprudence, droit comparé, analyse doctrinale) et d’apporter une contribution argumentée à un domaine du droit des affaires.
+            (doctrine, jurisprudence, droit comparé, analyse doctrinale) et d’apporter une contribution argumentée à un domaine du droit des affaires. Le sujet est libre ou choisi parmi ceux proposés par les professeurs du Master. Il doit se rattacher à au moins l’une des matières enseignées dans le diplôme.
           </strong>
         </p>
       </section>
@@ -40,25 +40,25 @@ export default function FormationPage() {
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Faciliter la recherche de stages.</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Former des juristes de haut niveau pour les préparer à leur vie professionnelle</p>
             </div>
 
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Encourager les initiatives.</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Faire de l’étudiant un ingénieur du droit</p>
             </div>
 
             <div className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm text-center flex items-center justify-center min-h-[140px] transition-transform transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-[#fff7f7] hover:to-white">
-              <p className="font-semibold text-lg text-zinc-800 transition-colors">Créer un véritable esprit de promotion et préserver un lien durable avec les anciens.</p>
+              <p className="font-semibold text-lg text-zinc-800 transition-colors">Former les candidats désireux de rejoindre l’enseignement supérieur</p>
             </div>
           </div>
         </section>
 
         <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-8">
           <h3 className="text-xl font-semibold mb-3">Cours fondamentaux</h3>
-          <p className="text-zinc-700">Deux cours magistraux (2 × 25 h) et deux enseignements méthodologiques (EM, 2 × 50 h) obligatoires correspondant à :</p>
+          <p className="text-zinc-700">Deux cours magistraux (2 × 25 h) et deux enseignements méthodologiques (2 × 50 h) obligatoires correspondant à :</p>
           <ul className="list-disc list-inside mt-3 text-zinc-700">
-            <li>Activités des entreprises</li>
             <li>Droit des sociétés</li>
+            <li>Activités des entreprises</li>
           </ul>
 
           <div className="mt-6">
@@ -130,10 +130,7 @@ export default function FormationPage() {
                 <h5 className="text-xl font-semibold">Madame le Professeur Marie‑Laure Coquelet</h5>
                 <div className="text-sm text-zinc-500 mb-1">Activités des entreprises</div>
                 <p className="text-zinc-700 leading-relaxed text-sm">
-                  Docteur en droit et agrégée, Marie‑Laure Coquelet est l’auteure de nombreux articles en droit des sociétés,
-                  droit des entreprises en difficulté et droit financier. Elle a co-dirigé des ouvrages de référence et
-                  intervient dans des masters consacrés aux techniques de restructuration des entreprises. Ancienne vice‑chancelière
-                  des universités, elle préside aujourd’hui le département de droit privé et de sciences criminelles.
+                  Docteur en Droit, et agrégée de droit privé et sciences criminelles, le Professeur Marie-Laure Coquelet est l’auteur de nombreux articles de droit des sociétés, de droit des entreprises en difficulté ainsi que de droit financier. Elle est également auteur et co-auteur de plusieurs ouvrages dont Droit financier sous la co-direction des professeurs A. Couret et H. Le Nabasque ou encore Entreprises en difficulté – Instruments de paiement et de crédit tous deux édités aux éditions Dalloz. Elle co-dirige également le Master 2 Techniques de restructuration des entreprises en difficulté. Ancien vice-chancelier des Universités, elle est désormais Président du département de droit privé et de sciences criminelles
                 </p>
               </article>
             </div>
@@ -163,6 +160,10 @@ export default function FormationPage() {
           <p className="text-zinc-700">Les enseignements dispensés au sein du Master s’attachent à présenter une importante dimension internationale et communautaire : de nombreux éléments de droit comparé enrichissent ces enseignements et l’étude des directives communautaires est un aspect majeur de la formation. 
             <br />De nombreux enseignements optionnels sont très largement orientés vers l’international (ex. droit bancaire, financier et monétaire international, entreprises et commerce international).</p>
         </section>
+        <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-8">
+          <h3 className="text-xl font-semibold mb-3">Conférences et séminaires</h3>
+          <p className="text-zinc-700">S’ajoutent des conférences données par des professeurs étrangers invités par l’Université Paris-Panthéon-Assas ou par des professionnels. Les étudiants du Master sont également conviés aux conférences organisées par l’Institut de Recherche en Droit des affaires (IRDA Paris).</p>
+        </section>
 
         <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-8">
           <h3 className="text-xl font-semibold mb-3">Langues</h3>
@@ -185,6 +186,9 @@ export default function FormationPage() {
         <section className="bg-white border border-zinc-100 rounded-2xl p-8 shadow-md mb-16">
           <h3 className="text-xl font-semibold mb-3">Candidatures et sélection</h3>
           <p className="text-zinc-700">Le parcours Droit des affaires (Recherche) est ouvert aux titulaires d’une Licence en droit (ou équivalent), privilégiant les candidats ayant suivi des cours de droit des obligations et droit des sociétés. La sélection est exigeante : plus de 1 400 candidatures pour environ 30 places — la sélection est opérée par le professeur Daniel Cohen, qui retient des candidats de haut niveau et très motivés. La maîtrise des langues et les expériences (stages) sont appréciées.</p>
+          <p className="text-zinc-700 mt-3">Le candidat doit justifier de solides connaissances dans les matières indispensables à la maîtrise du raisonnement juridique du droit des affaires : droit des obligations, droit des sociétés, droit des contrats spéciaux, droit des biens, etc… Il approfondira, lors de la première année de Master, les connaissances en Droit des affaires grâce aux enseignements de Droit des entreprises en difficulté, droit des sûretés, droit de la concurrence, droit bancaire ou encore droit des marchés financiers.
+Une attention particulière est portée à l’adéquation de la formation antérieure avec le contenu du Master et à l’acquisition d’un niveau de connaissances suffisant en rapport avec l’approfondissement proposé. Sont donc pris en considération la qualité de la formation reçue et la qualité des résultats obtenus.
+</p>
           <p className="text-zinc-700 mt-3">Conditions administratives : l’autorisation d’inscription est accordée par le Président de l’Université, sur proposition du responsable de la formation, après examen du dossier du candidat.</p>
         </section>
       </div>
