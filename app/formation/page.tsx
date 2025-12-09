@@ -122,9 +122,10 @@ export default function FormationPage() {
 
               <article className="flex flex-col items-center text-center lg:text-left lg:items-start lg:w-1/4 gap-4">
                 <img
-                  src="/professors/ML-Coquelet.jpg"
+                  src="/professors/Marie-laure_Coquelet.jpg"
                   alt="Madame le Professeur Marie-Laure Coquelet"
                   className="w-36 h-36 rounded-full object-cover border border-zinc-200 shadow-sm"
+                  style={{ objectPosition: 'center 15%' }}
                   onError={(e) => { (e.target as HTMLImageElement).src = '/president.jpg'; }}
                 />
                 <h5 className="text-xl font-semibold">Madame le Professeur Marie‑Laure Coquelet</h5>
