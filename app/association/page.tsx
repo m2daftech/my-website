@@ -2,6 +2,16 @@ import Image from "next/image";
 // removed `allura` font import to use the site's default typography for page titles
 
 export default function Association() {
+  const members = [
+    { id: 1, name: 'Yasmine Sebou', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/image_1.png' },
+    { id: 2, name: 'Maud Cohen', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/image_2_1.png' },
+    { id: 3, name: 'Savana Abbal', role: 'Secrétaire Générale', img: '/photos_actualites/promotions_membre/image_3.png' },
+    { id: 4, name: 'Youssef Sayarh', role: 'Trésorier', img: '/photos_actualites/promotions_membre/image_7.png' },
+    { id: 5, name: 'Mathilde Daumas', role: 'Chargée partenariats', img: '/photos_actualites/promotions_membre/image_4.png' },
+    { id: 6, name: 'Victor Schneider', role: 'Chargé communication', img: '/photos_actualites/promotions_membre/image_5_2.png' },
+    { id: 7, name: 'Paola Piendjio', role: 'Chargée communication', img: '/photos_actualites/promotions_membre/image_6.png' },
+  ];
+
   return (
     <main className="min-h-screen bg-white py-24">
       <div className="mx-auto max-w-screen-xl px-8">
@@ -23,6 +33,8 @@ export default function Association() {
                 />
               </div>
 
+              
+
               <div className="p-8">
                 <h2 className="text-2xl font-semibold text-black">Mot des Co-Présidentes</h2>
                 <div className="mt-4 text-zinc-700 leading-relaxed text-lg space-y-4">
@@ -41,11 +53,29 @@ Notre priorité cette année est de structurer un réseau solide et accessible, 
                 </div>
               </div>
             </div>
+            
 
             <div className="mt-8 space-y-6">
               
 
               <h3 className="text-2xl font-semibold text-[#590707]">Nos fonctions et rôles</h3>
+
+              <section className="mt-6 mb-6">
+                <h4 className="sr-only">Membres de la promotion</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  {members.map((m) => (
+                    <div key={m.id} className="flex items-center gap-6 bg-[#fbfcfd] border border-zinc-100 rounded-2xl p-4 shadow-sm">
+                      <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0">
+                        <Image src={m.img} alt={m.name} width={56} height={56} className="object-cover w-full h-full" />
+                      </div>
+                      <div>
+                        <div className="font-semibold text-lg text-zinc-800">{m.name}</div>
+                        <div className="text-sm text-[#590707] mt-1">{m.role}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <article className="bg-white border border-zinc-100 rounded-2xl p-6 shadow-sm flex flex-col">
