@@ -13,27 +13,27 @@ const promotions = [
    
     img: "/photos_actualites/promotions/promo_24_25.jpeg",
     members: [
-      { name: "Gabrielle Andrea", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/gabrielle-andrea-a3b42a1a5/", bio: "" },
-      { name: "Héloise Anselin", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/héloïse-anselin-85a848226/", bio: "" },
-      { name: "Juliette Caniard", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/juliette-caniard-38588122b/", bio: "" },
-      { name: "Eloise Dugdale", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/eloise-dugdale/", bio: "" },
-      { name: "Adel Ferrad", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/adel-ferrad-1a7695281/", bio: "" },
-      { name: "Gaspard Fribourg", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/gaspard-fribourg-5763641ba/", bio: "" },
-      { name: "Alexandre Kamouche", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/elias-alexandre-kamouche/", bio: "" },
-      { name: "Marius Michaux", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/marius-michaux-045a311a8/", bio: "" },
-      { name: "Arthur Neau", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/arthur-neau-869b98274/", bio: "" },
-      { name: "Camille Rousseau", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/camille-rousseau-a68542287/", bio: "" },
-      { name: "Alice Terra", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/alice-terra-b43030237/", bio: "" },
-      { name: "Constante Bisognin", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/constance-bisognin-218367243/", bio: "" },
-      { name: "Emma Collomb-Rocher", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/emma-collomb-rocher-754237239/", bio: "" },
-      { name: "Amine El-Harouchi", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/amine-el-harouchi-5b7539213/", bio: "" },
-      { name: "Sasha Fleury-Fridlander", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/sasha-fleury-fridlander-897a68220/", bio: "" },
-      { name: "Selma Jdiaoui", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/selma-jdiaoui-23254a287/", bio: "" },
-      { name: "Rémi Leroy", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/rémi-leroy-44b362193/", bio: "" },
-      { name: "Martin Namiech", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/martin-namiech-921ab42b1/", bio: "" },
-      { name: "Alix Peenaert", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/alix-peenaert-94010937a/", bio: "" },
-      { name: "Selma Taarji", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/selma-taarji-32412b21a/", bio: "" },
-      { name: "Iman Vandenbon", role: "Membre", photo: "/photos_actualites/promotions_membre/image_placeholder.png", linkedin: "https://www.linkedin.com/in/iman-vandenbon-a1aa951b6/", bio: "" },
+      { name: "Gabrielle Andrea", role: "Membre", photo: "/photos_actualites/promotions_membre/gabrielleandrea.jpg", linkedin: "https://www.linkedin.com/in/gabrielle-andrea-a3b42a1a5/", bio: "" },
+      { name: "Héloise Anselin", role: "Membre", photo: "/photos_actualites/promotions_membre/heloiseanselin.jpg", linkedin: "https://www.linkedin.com/in/héloïse-anselin-85a848226/", bio: "" },
+      { name: "Juliette Caniard", role: "Membre", photo: "/photos_actualites/promotions_membre/juliettecaniard.jpg", linkedin: "https://www.linkedin.com/in/juliette-caniard-38588122b/", bio: "" },
+      { name: "Eloise Dugdale", role: "Membre", photo: "/photos_actualites/promotions_membre/eloisedugdale.jpg", linkedin: "https://www.linkedin.com/in/eloise-dugdale/", bio: "" },
+      { name: "Adel Ferrad", role: "Membre", photo: "/photos_actualites/promotions_membre/adelferrad.jpg", linkedin: "https://www.linkedin.com/in/adel-ferrad-1a7695281/", bio: "" },
+      { name: "Gaspard Fribourg", role: "Membre", photo: "/photos_actualites/promotions_membre/gaspardfribourg.jpg", linkedin: "https://www.linkedin.com/in/gaspard-fribourg-5763641ba/", bio: "" },
+      { name: "Elias Kamouche", role: "Membre", photo: "/photos_actualites/promotions_membre/eliaskamouche.jpg", linkedin: "https://www.linkedin.com/in/elias-alexandre-kamouche/", bio: "" },
+      { name: "Marius Michaux", role: "Membre", photo: "/photos_actualites/promotions_membre/mariusmichaux.jpg", linkedin: "https://www.linkedin.com/in/marius-michaux-045a311a8/", bio: "" },
+      { name: "Arthur Neau", role: "Membre", photo: "/photos_actualites/promotions_membre/arthurneau.jpg", linkedin: "https://www.linkedin.com/in/arthur-neau-869b98274/", bio: "" },
+      { name: "Camille Rousseau", role: "Membre", photo: "/photos_actualites/promotions_membre/camillerousseau.jpg", linkedin: "https://www.linkedin.com/in/camille-rousseau-a68542287/", bio: "" },
+      { name: "Alice Terra", role: "Membre", photo: "/photos_actualites/promotions_membre/aliceterra.jpg", linkedin: "https://www.linkedin.com/in/alice-terra-b43030237/", bio: "" },
+      { name: "Constance Bisognin", role: "Membre", photo: "/photos_actualites/promotions_membre/constancebisognin.jpg", linkedin: "https://www.linkedin.com/in/constance-bisognin-218367243/", bio: "" },
+      { name: "Emma Collomb-Rocher", role: "Membre", photo: "/photos_actualites/promotions_membre/emmacollombrocher.jpg", linkedin: "https://www.linkedin.com/in/emma-collomb-rocher-754237239/", bio: "" },
+      { name: "Amine El-Harouchi", role: "Membre", photo: "/photos_actualites/promotions_membre/amineelharouchi.jpg", linkedin: "https://www.linkedin.com/in/amine-el-harouchi-5b7539213/", bio: "" },
+      { name: "Sasha Fleury-Fridlander", role: "Membre", photo: "/photos_actualites/promotions_membre/sashafleuryfridlander.jpg", linkedin: "https://www.linkedin.com/in/sasha-fleury-fridlander-897a68220/", bio: "" },
+      { name: "Selma Jdiaoui", role: "Membre", photo: "/photos_actualites/promotions_membre/selmajdiaoui.jpg", linkedin: "https://www.linkedin.com/in/selma-jdiaoui-23254a287/", bio: "" },
+      { name: "Rémi Leroy", role: "Membre", photo: "/photos_actualites/promotions_membre/remileroy.jpg", linkedin: "https://www.linkedin.com/in/rémi-leroy-44b362193/", bio: "" },
+      { name: "Martin Namiech", role: "Membre", photo: "/photos_actualites/promotions_membre/martinnamiech.jpg", linkedin: "https://www.linkedin.com/in/martin-namiech-921ab42b1/", bio: "" },
+      { name: "Alix Peenaert", role: "Membre", photo: "/photos_actualites/promotions_membre/alixpeenaert.jpg", linkedin: "https://www.linkedin.com/in/alix-peenaert-94010937a/", bio: "" },
+      { name: "Selma Taarji", role: "Membre", photo: "/photos_actualites/promotions_membre/selmataarji.jpg", linkedin: "https://www.linkedin.com/in/selma-taarji-32412b21a/", bio: "" },
+      { name: "Iman Vandenbon", role: "Membre", photo: "/photos_actualites/promotions_membre/imanvandenbon.jpg", linkedin: "https://www.linkedin.com/in/iman-vandenbon-a1aa951b6/", bio: "" },
     ],
   },
   {
@@ -45,7 +45,7 @@ const promotions = [
       { name: "Gabriel Alvarez", role: "Membre", photo: "/photos_actualites/promotions_membre/gabrielalvarez.jpg", linkedin: "https://www.linkedin.com/in/gabriel-alvarez-229250230/", bio: "" },
       { name: "Inès Bader", role: "Membre", photo: "/photos_actualites/promotions_membre/inesbader.jpg", linkedin: "https://www.linkedin.com/in/in%C3%A8s-b-92a253247/", bio: "" },
       { name: "Emmanuel Bangoura", role: "Membre", photo: "/photos_actualites/promotions_membre/emmanuelbangoura.jpg", linkedin: "https://www.linkedin.com/in/emmanuel-bangoura/", bio: "" },
-      { name: "Maud Cohen", role: "Co‑Présidente", photo: "/photos_actualites/promotions_membre/image_2_1.png", linkedin: "https://www.linkedin.com/in/maud-cohen-90a718221/", bio: "" },
+      { name: "Maud Cohen", role: "Membre", photo: "/photos_actualites/promotions_membre/image_2_1.png", linkedin: "https://www.linkedin.com/in/maud-cohen-90a718221/", bio: "" },
       { name: "Océane Dahan", role: "Membre", photo: "/photos_actualites/promotions_membre/oceanedahan.jpg", linkedin: "https://www.linkedin.com/in/oc%C3%A9ane-dahan-86b006268/", bio: "" },
       { name: "Mathilde Damas", role: "Membre", photo: "/photos_actualites/promotions_membre/image_4.png", linkedin: "https://www.linkedin.com/in/mathilde-daumas-26916627b/", bio: "" },
       { name: "Camille Delcourt", role: "Membre", photo: "/photos_actualites/promotions_membre/camilledelcourt.jpg", linkedin: "https://www.linkedin.com/in/camille-delcourt-3341bb2b4/", bio: "" },
@@ -60,7 +60,7 @@ const promotions = [
       { name: "Diane Mazloum", role: "Membre", photo: "/photos_actualites/promotions_membre/dianemazloum.jpg", linkedin: "https://www.linkedin.com/in/diane-mazloum/", bio: "" },
       { name: "Paola Piendjio", role: "Membre", photo: "/photos_actualites/promotions_membre/image_6.png", linkedin: "https://www.linkedin.com/in/paola-piendjio-11636b1b4/", bio: "" },
       { name: "Selma Roudi", role: "Membre", photo: "/photos_actualites/promotions_membre/selmaroudi.jpg", linkedin: "https://www.linkedin.com/in/selma-roudi-6908a61bb/", bio: "" },
-      { name: "Youssef Sayarh", role: "Trésorier", photo: "/photos_actualites/promotions_membre/image_7.png", linkedin: "https://www.linkedin.com/in/youssef-sayarh-610652241/", bio: "" },
+      { name: "Youssef Sayarh", role: "Membre", photo: "/photos_actualites/promotions_membre/image_7.png", linkedin: "https://www.linkedin.com/in/youssef-sayarh-610652241/", bio: "" },
       { name: "Victor Schneider", role: "Membre", photo: "/photos_actualites/promotions_membre/image_5_2.png", linkedin: "https://www.linkedin.com/in/victor-schneider-5985a026a/", bio: "" },
       { name: "Yasmine Sebou", role: "Membre", photo: "/photos_actualites/promotions_membre/image_1.png", linkedin: "https://www.linkedin.com/in/yasmine-sebou-977b36264/", bio: "" },
       { name: "Marie Sie", role: "Membre", photo: "/photos_actualites/promotions_membre/mariesie.jpg", linkedin: "https://www.linkedin.com/in/marie-si%C3%A9-159a50226/", bio: "" },
@@ -178,11 +178,26 @@ const promotions = [
 
 export default function PromotionsPage() {
   // sort promotions by starting year (newest first)
-  const sortedPromotions = [...promotions].sort((a, b) => {
-    const ya = (a.title.match(/\d{4}/) || ["0"])[0];
-    const yb = (b.title.match(/\d{4}/) || ["0"])[0];
-    return parseInt(yb, 10) - parseInt(ya, 10);
-  });
+  const getLastName = (fullName: string) => {
+    return (fullName || "").toString().trim().split(/\s+/).pop() || "";
+  };
+
+  const sortByLastName = (x: any, y: any) => {
+    const lx = getLastName(x.name).toLowerCase();
+    const ly = getLastName(y.name).toLowerCase();
+    return lx.localeCompare(ly, 'fr', { sensitivity: 'base' });
+  };
+
+  const sortedPromotions = [...promotions]
+    .map((p) => ({
+      ...p,
+      members: p.members ? [...p.members].sort(sortByLastName) : p.members,
+    }))
+    .sort((a, b) => {
+      const ya = (a.title.match(/\d{4}/) || ["0"])[0];
+      const yb = (b.title.match(/\d{4}/) || ["0"])[0];
+      return parseInt(yb, 10) - parseInt(ya, 10);
+    });
 
   const [selectedId, setSelectedId] = useState(sortedPromotions[0].id);
   const selected = sortedPromotions.find((p) => p.id === selectedId) || sortedPromotions[0];
