@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function Association() {
   const members = [
-    { id: 1, name: 'Yasmine Sebou', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/image_1.png' },
-    { id: 2, name: 'Maud Cohen', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/image_2_1.png' },
-    { id: 3, name: 'Savana Abbal', role: 'Secrétaire Générale', img: '/photos_actualites/promotions_membre/image_3.png' },
-    { id: 4, name: 'Youssef Sayarh', role: 'Trésorier', img: '/photos_actualites/promotions_membre/image_7.png' },
-    { id: 5, name: 'Mathilde Daumas', role: 'Chargée partenariats', img: '/photos_actualites/promotions_membre/image_4.png' },
-    { id: 6, name: 'Victor Schneider', role: 'Chargé communication', img: '/photos_actualites/promotions_membre/image_5_2.png' },
-    { id: 7, name: 'Paola Piendjio', role: 'Chargée communication', img: '/photos_actualites/promotions_membre/image_6.png' },
+    { id: 1, name: 'Yasmine Sebou', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/p25/image_1.png' },
+    { id: 2, name: 'Maud Cohen', role: 'Co‑Présidente', img: '/photos_actualites/promotions_membre/p25/image_2_1.png' },
+    { id: 3, name: 'Savana Abbal', role: 'Secrétaire Générale', img: '/photos_actualites/promotions_membre/p25/image_3.png' },
+    { id: 4, name: 'Youssef Sayarh', role: 'Trésorier', img: '/photos_actualites/promotions_membre/p25/image_7.png' },
+    { id: 5, name: 'Mathilde Daumas', role: 'Chargée partenariats', img: '/photos_actualites/promotions_membre/p25/image_4.png' },
+    { id: 6, name: 'Victor Schneider', role: 'Chargé communication', img: '/photos_actualites/promotions_membre/p25/image_5_2.png' },
+    { id: 7, name: 'Paola Piendjio', role: 'Chargée communication', img: '/photos_actualites/promotions_membre/p25/image_6.png' },
   ];
 
   return (
