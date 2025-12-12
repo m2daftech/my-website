@@ -74,20 +74,20 @@ const promotions = [
     img: "/photos_actualites/promotions/promo_23_24.jpg",
     members: [
       { name: "Capucine Laurent", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/capucinelaurent.jpg", linkedin: "https://www.linkedin.com/in/capucine-laurent-a67b62202/", bio: "" },
-      { name: "Amelie Dutruel", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/logo.png", linkedin: "https://www.linkedin.com/in/am%C3%A9lie-dutruel-9b8b5b264/", bio: "" },
+      { name: "Amelie Dutruel", role: "Membre", photo: "/logo.png", linkedin: "https://www.linkedin.com/in/am%C3%A9lie-dutruel-9b8b5b264/", bio: "" },
       { name: "Lucas Archambeau", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/lucasarchambeau.jpg", linkedin: "https://www.linkedin.com/in/lucas-a-051aa022b/", bio: "" },
       { name: "Pauline Lesdos", role: "Membre", photo: "/photos_actualites/promotions_membre/paulinelesdos.jpg", linkedin: "https://www.linkedin.com/in/pauline-lesdos-9909b51a0/", bio: "" },
       { name: "Louna Laissac", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/lounalaissac.jpg", linkedin: "https://www.linkedin.com/in/louna-laissac-3834621b4/", bio: "" },
-      { name: "Hakim Naciri", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/logo.png", linkedin: "https://www.linkedin.com/in/hakim-naciri-549a23252/", bio: "" },
+      { name: "Hakim Naciri", role: "Membre", photo: "/logo.png", linkedin: "https://www.linkedin.com/in/hakim-naciri-549a23252/", bio: "" },
       { name: "Tom Guerin", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/tomguerin.jpg", linkedin: "https://www.linkedin.com/in/tomguerin/", bio: "" },
       { name: "Agathe Holly", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/agatheholly.jpg", linkedin: "https://www.linkedin.com/in/agathe-holly-aa20472a4/", bio: "" },
       { name: "Delphine Giraudin", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/delphinegiraudin.jpg", linkedin: "https://www.linkedin.com/in/delphine-giraudin-899368220/", bio: "" },
-      { name: "Thibaud Pont-Nourat", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/logo.png", linkedin: "https://www.linkedin.com/in/thibaud-pont-nourat-362b31235/", bio: "" },
+      { name: "Thibaud Pont-Nourat", role: "Membre", photo: "/logo.png", linkedin: "https://www.linkedin.com/in/thibaud-pont-nourat-362b31235/", bio: "" },
       { name: "Marie Brifflot", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/mariebrifflot.jpg", linkedin: "https://www.linkedin.com/in/marie-brifflot-5911271bb/", bio: "" },
       { name: "Marine de Riberolles", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/marineriberolles.jpg", linkedin: "https://www.linkedin.com/in/marine-de-riberolles-04974a216/", bio: "" },
       { name: "Marine Coulibaly", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/marinecoulibaly.jpg", linkedin: "https://www.linkedin.com/in/marine-coulibaly-9927b2205/", bio: "" },
-      { name: "Cédric Aland", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/logo.png", linkedin: "https://www.linkedin.com/in/c%C3%A9dric-aland-70975a180/", bio: "" },
-      { name: "Clarisse Castet", role: "Membre", photo: "/photos_actualites/promotions_membre/p23/logo.png", linkedin: "https://www.linkedin.com/in/clarisse-castet-2853aa2ba/", bio: "Mémoire de recherche : « Les protections accordées à l’entrepreneur individuel sont-elles excessives ? »" }
+      { name: "Cédric Aland", role: "Membre", photo: "/logo.png", linkedin: "https://www.linkedin.com/in/c%C3%A9dric-aland-70975a180/", bio: "" },
+      { name: "Clarisse Castet", role: "Membre", photo: "/logo.png", linkedin: "https://www.linkedin.com/in/clarisse-castet-2853aa2ba/", bio: "Mémoire de recherche : « Les protections accordées à l’entrepreneur individuel sont-elles excessives ? »" }
     ],
   },
   {
