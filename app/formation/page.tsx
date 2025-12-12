@@ -103,7 +103,7 @@ export default function FormationPage() {
 
               <article className="flex flex-col items-center text-center lg:text-left lg:items-start lg:w-1/4 gap-4">
                 <img
-                  src="/professors/jean_jacques-ansault.jpg"
+                  src="/professors/jean_jacques-ansault2.jpg"
                   alt="Monsieur le Professeur Jean-Jacques Ansault"
                   className="w-36 h-36 rounded-full object-cover border border-zinc-200 shadow-sm"
                   onError={(e) => { (e.target as HTMLImageElement).src = '/president.jpg'; }}
